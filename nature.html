@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  /*NO UNDERLINED TEXT*/
+  A  {
+    text-decoration: none;
+  }
+
+  /*DROP DOWN MENU*/
+  .dropbtn {
+      background-color: white;
+      color: black;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+  }
+
+  .drop {
+      position: relative;
+      display: inline-block;
+  }
+
+  .drop-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+  }
+
+  .drop-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+
+  .drop-content a:hover {background-color: black;}
+
+  .drop:hover .drop-content {display: block;}
+
+  .drop:hover .dropbtn {background-color: rgb(221, 221, 221);}
+
+
+
+  .dropbtn {
+      background-color: white;
+      color: black;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+  }
+
+  .drop {
+      position: relative;
+      display: inline-block;
+  }
+
+  .drop-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+  }
+
+  .drop-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+
+  .drop-content a:hover {background-color: #ddd;}
+
+  .drop:hover .drop-content {display: block;}
+
+  .drop:hover .dropbtn {background-color: rgb(221, 221, 221);}
+
+
+
+  body, html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial;
+  }
+
+  .image {
+    background-image: url("http://eskipaper.com/images/fantastic-trees-wallpaper-1.jpg");
+    height: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  /*MUSIC INFO*/
+    .video1 {
+      position: relative;
+      text-align: justify;
+      padding-left: 50px;
+      padding-top: -50px;
+    }
+
+    .rainforest {
+      position: relative;
+      text-align: justify;
+      left: 640px;
+      top: -180px;
+      font-size: 14px;
+    }
+
+    .raininfo {
+      font-size: 13px;
+      position: relative;
+      text-align: justify;
+      left: 400px;
+      top: -160px;
+    }
+
+
+    .video2 {
+      padding-left: 50px;
+      padding-top: 50px;
+    }
+
+    .campfire {
+      position: relative;
+      text-align: justify;
+      left: 690px;
+      top: -180px;
+      font-size: 14px;
+    }
+
+    .campinfo {
+      font-size: 13px;
+      position: relative;
+      text-align: justify;
+      left: 450px;
+      top: -150px;
+    }
+
+    .video3 {
+      padding-left: 50px;
+      padding-top: 50px;
+    }
+
+    .ocean {
+      position: relative;
+      text-align: justify;
+      left: 655px;
+      top: -180px;
+      font-size: 14px;
+    }
+
+    .oceaninfo {
+      font-size: 13px;
+      position: relative;
+      text-align: justify;
+      left: 400px;
+      top: -150px;
+    }
+
+  </style>
+  </head>
+
+  <body>
+  <!--HEADER BOX CONTENT-->
+    <div class="drop">
+    <a href="home.html" button class="dropbtn">Home</button></a>
+    <div class="drop-content">
+    </div>
+  </div>
+
+
+  <div class="drop">
+    <button class="dropbtn">Music</button>
+    <div class="drop-content">
+      <a href="class.html">Classical</a>
+      <a href="med.html">Meditation</a>
+      <a href="nature.html">Nature</a>
+    </div>
+  </div>
+
+  <div class="drop">
+    <button class="dropbtn">Exercise</button>
+    <div class="drop-content">
+      <a href="yoga.html">Yoga</a>
+      <a href="breathing.html">Breathing</a>
+    </div>
+  </div>
+
+  <div class="drop">
+    <button class="dropbtn">Inspiration</button>
+    <div class="drop-content">
+      <a href="quotes.html">Quotes</a>
+      <a href="poems.html">Poems</a>
+    </div>
+  </div>
+
+  <div class="drop">
+    <a href="act.html" button class="dropbtn">Activities</button></a>
+    </div>
+  </div>
+
+  <div class="drop">
+    <a href="about.html" button class="dropbtn">About Us</button></a>
+    </div>
+  </div>
+
+  <div class="image">
+    <div class="text">
+      <h1 style="font-size:50px"><b>Nature Music<b></h1>
+
+    </div>
+  </div>
+
+  <!--MUSIC INFO-->
+  <hr>
+
+
+  <!--MUSIC - COMPOSERS-->
+  <div class="video1">
+    <iframe width="280" height="158" src="https://www.youtube.com/embed/pPrO2jlay40" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <div class="rainforest">
+      <h4><b><u>Rainforest Sounds</u></b></h4>
+    </div>
+    <div class="raininfo">
+    <h5>The sound of the rainforest, birds chirping, wind blowing, and flowing water are some of the few things that help </h5>
+      <h5>reduce stress and induce a calming state. Also, the sound of nature helps your nervous system recover faster after a stressful event, </h5>
+      <h5>showing you can truly benefit from the results of listening to nature sounds. </h5>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="video2">
+    <iframe width="280" height="158" src="https://www.youtube.com/embed/iz7wtTO7roQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+    <div class="campfire">
+      <h4><b><u>Campfire Sounds</u></b></h4>
+    </div>
+    <div class="campinfo">
+      <h5>The sound of a crackling campfire helps people calm down, but the longer you watch and listen, the more relax you become. </h5>
+      <h5>While having some calm attention to this campfire, you’re also helping reduce your anxiety and your blood pressure. </h5>
+      <h5> These sounds helps you focus and brightens your mood, and you don’t even have to do anything while listening to it! </h5>
+  </div>
+  </div>
+
+  <hr>
+
+
+      <div class="video3">
+          <iframe width="280" height="158" src="https://www.youtube.com/embed/PoAeFpUB1hA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <div class="ocean">
+          <h4><b><u>Ocean Sounds</u></b></h4>
+        </div>
+        <div class="oceaninfo">
+          <h5>The sound of crashing waves is one of the most known white noise, as it helps people calm down tremendously.</h5>
+          <h5> It helps improve stress responses and overall health. Use these music tools, and maybe the help of our exercise pages </h5>
+          <h5>to create a calm, peaceful environment to relax. </h5>
+        </div>
+      </div>
+
+      <hr>
+      <hr>
+        <div>
+          <center>
+            <h3> <i>"A little consideration,</i> </h3>
+            <h3> <i>a little thought for others,</i> </h3>
+            <h3> <i>makes all the difference."</i> </h3>
+            <h3> <i> - Winnie The Pooh<i></h3>
+            </center></div>
+
+</body>
+</html>

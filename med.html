@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  /*NO UNDERLINED TEXT*/
+  A  {
+    text-decoration: none;
+  }
+
+  /*DROP DOWN MENU*/
+  .dropbtn {
+      background-color: white;
+      color: black;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+  }
+
+  .drop {
+      position: relative;
+      display: inline-block;
+  }
+
+  .drop-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+  }
+
+  .drop-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+
+  .drop-content a:hover {background-color: black;}
+
+  .drop:hover .drop-content {display: block;}
+
+  .drop:hover .dropbtn {background-color: rgb(221, 221, 221);}
+
+
+
+  .dropbtn {
+      background-color: white;
+      color: black;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+  }
+
+  .drop {
+      position: relative;
+      display: inline-block;
+  }
+
+  .drop-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+  }
+
+  .drop-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+
+  .drop-content a:hover {background-color: #ddd;}
+
+  .drop:hover .drop-content {display: block;}
+
+  .drop:hover .dropbtn {background-color: rgb(221, 221, 221);}
+
+
+
+
+  body, html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial;
+  }
+
+  .image {
+    background-image: url("http://hdwpro.com/wp-content/uploads/2016/07/Natural-Cherry-Blossom.jpg");
+    height: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  /*MUSIC INFO CSS*/
+
+    .video {
+      padding-left: 50px;
+      padding-top: 50px;
+    }
+
+    .vid2 {
+      padding-left: 1px;
+      padding-top: -20px;
+    }
+
+    .title {
+      position: relative;
+      text-align: justify;
+      left: 620px;
+      top: -60px;
+      font-size: 14px;
+    }
+
+    .medinfo {
+      font-size: 13px;
+      position: relative;
+      text-align: justify;
+      left: 350px;
+      top: -30px;
+    }
+p {
+  font-size: 13px;
+  position: relative;
+  text-align: justify;
+}
+  </style>
+  </head>
+
+  <body>
+  <!--HEADER BOX CONTENT-->
+    <div class="drop">
+    <a href="home.html" button class="dropbtn">Home</button></a>
+    <div class="drop-content">
+    </div>
+  </div>
+
+
+  <div class="drop">
+    <button class="dropbtn">Music</button>
+    <div class="drop-content">
+      <a href="class.html">Classical</a>
+      <a href="med.html">Meditation</a>
+      <a href="nature.html">Nature</a>
+    </div>
+  </div>
+
+  <div class="drop">
+    <button class="dropbtn">Exercise</button>
+    <div class="drop-content">
+      <a href="yoga.html">Yoga</a>
+      <a href="breathing.html">Breathing</a>
+    </div>
+  </div>
+
+  <div class="drop">
+    <button class="dropbtn">Inspiration</button>
+    <div class="drop-content">
+      <a href="quotes.html">Quotes</a>
+      <a href="poems.html">Poems</a>
+    </div>
+  </div>
+
+  <div class="drop">
+    <a href="act.html" button class="dropbtn">Activities</button></a>
+    </div>
+  </div>
+
+  <div class="drop">
+    <a href="about.html" button class="dropbtn">About Us</button></a>
+    </div>
+  </div>
+
+  <div class="image">
+    <div class="text">
+      <h1 style="font-size:50px"><b>Meditation Music<b></h1>
+
+    </div>
+  </div>
+
+  <!--MUSIC INFO-->
+
+  <hr>
+      <div class="video">
+        <iframe width="280" height="158" src="https://www.youtube.com/embed/W0z0nTYqU1M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <div class="title">
+          <h4><b><u>Find Your Inner Peace</u></b></h4>
+        </div>
+        <div class="medinfo">
+          <h5>Listening to soothing music is beneficial to us, and you don’t have to do yoga with it either! By listening to this type of music,</h5>
+          <h5>  it can help relax your body and reduce stress. It helps find your inner peace. Luckily, if you’re going to do yoga while listening to this music, </h5>
+            <h5>you’ll get a more fulfilling experience with it effortlessly. </h5>
+              <a href="yoga.html"><i><font size="+1"><u>Unsure of yoga poses? Click on this sentence!</u></font></i></a>
+        </div>
+        <div class="vid2">
+          <iframe width="280" height="158" src="https://www.youtube.com/embed/wLusf2YmQ-s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+
+
+  <hr>
+  <hr>
+    <div>
+      <center>
+        <h3> <i>"Be original; don't be scared of being <b>bold</b>!"</i> </h3>
+        <h3> <i> - Ed Sheeran <i></h3>
+        </center></div>
+
+
+</body>
+</html>
